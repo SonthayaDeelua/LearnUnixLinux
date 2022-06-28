@@ -1,0 +1,23 @@
+File Command
+
+ls 		directory listing
+ls -al  	formatted listing with hidden files
+cd dir		change direcotry to dir
+pwd		show current directory
+mkdir dir	create directory with name dir
+rm file		delete file
+rm -r dir 	delete directory dir
+mr -f file 	force remove file
+rm -rf -dir	force remove direcotry dir
+cp file1 file2	copy file1 to file2
+cp -r dir1 dire2	copy dir1 to dir2: create dir2 if it doesn't exist
+mv file1 file2		rename or move file1 to file2 (create file2 if not exist)
+ln -s file link		create symbolic link link to file
+touch file 	create or update file
+cat > file	place standard input into file
+more file 	output the content of file
+head file	output the fist 10 line of file
+tail file	output the last 10 lines of files
+tail -f file	output the contents of file as it
+
+
